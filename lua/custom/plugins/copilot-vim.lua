@@ -7,13 +7,13 @@ return {
     -- For copilot.vim
     -- enable copilot for specific filetypes
     vim.g.copilot_filetypes = {
-      ['*'] = true,
+      '*',
     }
 
     -- Set to true to assume that copilot is already mapped
-    vim.g.copilot_assume_mapped = true
+    -- vim.g.copilot_assume_mapped = true
     -- Set workspace folders
-    -- vim.g.copilot_workspace_folders = '~/Projects'
+    vim.g.copilot_workspace_folders = '~/Projects'
 
     -- Setup keymaps
     local keymap = vim.keymap.set

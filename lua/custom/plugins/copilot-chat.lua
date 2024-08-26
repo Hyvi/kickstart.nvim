@@ -20,7 +20,6 @@ local prompts = {
 }
 
 return {
-  { import = 'custom.plugins.copilot-vim' }, -- Or use { import = "lazyvim.plugins.extras.coding.copilot" },
   {
     dir = IS_DEV and '~/Projects/research/CopilotChat.nvim' or nil,
     'CopilotC-Nvim/CopilotChat.nvim',
